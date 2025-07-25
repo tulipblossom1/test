@@ -1,0 +1,1368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #FFFDF6;
+    overflow-x: hidden;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+#wrap {
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+header {
+    width: 100%;
+    height: clamp(116px, 10vw, 150px);
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: clamp(73px, 10vw, 100px);
+    height: clamp(73px, 10vw, 100px);
+    min-width: 73px;
+    min-height: 73px;
+    align-content: center;
+    margin: clamp(21px, 10vw, 25px) 2.92vw;
+}
+
+header nav ul {
+    width: clamp(300px, 50vw, 890px);
+    height: 66.7%;
+    display: flex;
+    margin: 2.5% clamp(10px, 20vw, 300px);
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 1.2%;
+    font-size: clamp(20px, 2vw, 24px);
+    font-weight: 600;
+    color: #3E6349;
+}
+
+header .ham {
+    display: none;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+main .top {
+    width: 100%;
+    height: clamp(743px, 10vw, 832px);
+    position: relative;
+}
+
+main .top .bg {
+    background-image: url(./images/mainimg.jpeg);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+main .top h2 {
+    position: absolute;
+    font-size: clamp(50px, 7vw, 80px);
+    color: #FFFDF6;
+    left: 5%;
+    top: 10%;
+}
+
+main .collection {
+    width: 100%;
+    height: 445px;
+    /* background-color: aqua; */
+    padding: 100px;
+}
+
+main .collection h3 {
+    text-align: center;
+    font-size: clamp(24px, 2.5vw, 36px);
+    font-weight: 600;
+    color: #3E6349;
+}
+
+main .collection .icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem auto;
+    width: 53.1%;
+    margin-bottom: 160px;
+}
+
+
+main .collection .icon>li a img {
+    min-width: 70px;
+    height: 70px;
+    overflow: hidden;
+
+}
+
+main .about {
+    width: 100%;
+    background-color: rgba(62, 99, 73, 0.1); 
+    position: relative;
+    height: 1617px;
+  }
+  
+  main .about .about_inner {
+    width: 1200px; 
+    margin: 0 auto;
+    position: relative;
+  }
+
+
+
+main .about .about_inner .r1 {
+    width: 600px;
+    height: 767px;
+    position: absolute;
+    background-image: url(./images/room1.jpeg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 135px;
+}
+
+main .about  .about_inner .r2 {
+    width: 600px;
+    height: 767px;
+    background-image: url(./images/room2.jpeg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 750px;
+    right: 0;
+}
+
+main .about .about_inner .t1 {
+    width: 600px;
+    height: 687px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 135px;
+    right: 0;
+    text-align: center;
+    padding-top: 80px;
+    line-height: 65px;
+    font-size: 36px;
+    color: #3E6349;
+    font-weight: 500;
+}
+
+main .about  .about_inner .t2 {
+    width: 600px;
+    height: 687px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 831px;
+    left:0;
+    text-align: center;
+    padding-top: 220px;
+    line-height: 65px;
+    font-size: 36px;
+    color: #3E6349;
+    font-weight: 500;
+}
+
+main .concept {
+    width: 100%;
+    height: 1152px;
+    background-color: rgba(62, 99, 73, 10%);
+}
+
+main .concept h3 {
+    margin-left: 132px;
+    font-size: clamp(24px, 2.5vw, 36px);
+    font-weight: 600;
+    color: #3E6349;
+    margin-bottom: 76px;
+}
+
+main .concept .concept-img {
+    width: 100%;
+    max-width: 1770px;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    height: 846px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    margin: auto;
+}
+
+/* 그린 인테리어 부분 */
+
+main .concept .concept-img .green-interior {
+    position: relative;
+    width: 570px;
+    height: 846px;
+}
+
+main .concept .concept-img .green-interior h4 {
+    position: absolute;
+    color: #FFFDF6;
+    left: 50px;
+    top: 20px;
+    font-size: clamp(24px, 2.5vw, 36px);
+    z-index: 2;
+}
+
+main .concept .concept-img .green-interior img {
+    width: 570px;   
+    height: 846px;  
+    overflow: hidden;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+/* 우드 인테리어 부분 */
+
+main .concept .concept-img .wood-interior {
+    position: relative;
+    width: 570px;
+    height: 846px;
+
+
+}
+
+main .concept .concept-img .wood-interior img {
+    width: 570px;
+    height: 846px;
+    overflow: hidden;
+    border-radius: 50px;
+    position: absolute;
+
+}
+
+main .concept .concept-img .wood-interior h4 {
+    position: absolute;
+    color: #FFFDF6;
+    left: 50px;
+    top: 20px;
+    font-size: clamp(24px, 2.5vw, 36px);
+    z-index: 2;
+}
+
+/* 화이트 인테리어 부분 */
+main .concept .concept-img .white-interior {
+    position: relative;
+    width: 570px;
+    height: 846px;
+}
+
+main .concept .concept-img .white-interior img {
+    width: 570px;
+    height: 846px;
+    overflow: hidden;
+    border-radius: 50px;
+    position: absolute;
+}
+
+main .concept .concept-img .white-interior h4 {
+    position: absolute;
+    color: #FFFDF6;
+    left: 50px;
+    top: 20px;
+    font-size: clamp(24px, 2.5vw, 36px);
+    z-index: 2;
+}
+
+main .shop {
+    width: 100%;
+    height: 1175px;
+    background-color: #FFFDF6;
+}
+
+main .shop h3 {
+    margin-left: 132px;
+    font-size: clamp(24px, 2.5vw, 36px);
+    font-weight: 600;
+    color: #3E6349;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* 상품 영역 나열 부분1 */
+
+main .shop .pro1 {
+    width: 100%;
+    max-width: 1570px;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    height: 425px;
+    display: flex;
+    margin: auto;
+    gap: 30px;
+}
+
+
+main .shop .pro1 .baer {
+    width: 670px;
+    height: 425px;
+    position: relative;
+    overflow: hidden;
+}
+
+main .shop .pro1 .baer>img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+main .shop .pro1 .baer>h4 {
+    font-size: 36px;
+    position: absolute;
+    font-weight: 600;
+    color: #3E6349;
+    text-align: right;
+    left: 53%;
+    top: 316px;
+    overflow: hidden;
+
+}
+
+main .shop .baer580 {
+    display: none;
+    overflow: hidden;
+}
+
+main .shop .pro1 .cushion,
+main .shop .pro1 .Curtain,
+main .shop .pro1 .candle,
+main .shop .pro2 .clock,
+main .shop .pro2 .plant,
+main .shop .pro2 .poster,
+main .shop .pro2 .light {
+    width: 270px;
+    height: 425px;
+    background-color: rgba(62, 99, 73, 25%);
+}
+
+
+main .shop .pro1 .cushion figure,
+main .shop .pro1 .Curtain figure,
+main .shop .pro1 .candle figure,
+main .shop .pro2 .clock figure,
+main .shop .pro2 .plant figure,
+main .shop .pro2 .poster figure,
+main .shop .pro2 .light figure {
+    width: 270px;
+    height: 287px;
+}
+
+main .shop .pro1 .cushion figure img,
+main .shop .pro1 .Curtain img,
+main .shop .pro1 .candle img,
+main .shop .pro2 .clock figure img,
+main .shop .pro2 .plant figure img,
+main .shop .pro2 .poster figure img,
+main .shop .pro2 .light figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+main .shop .pro1 .cushion h4,
+main .shop .pro1 .Curtain h4,
+main .shop .pro1 .candle h4,
+main .shop .pro2 .clock h4,
+main .shop .pro2 .plant h4,
+main .shop .pro2 .poster h4,
+main .shop .pro2 .light h4 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #3E6349;
+    text-align: left;
+    left: 320px;
+    top: 316px;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+
+main .shop .pro1 .cushion h5,
+main .shop .pro1 .Curtain h5,
+main .shop .pro1 .candle h5,
+main .shop .pro2 .clock h5,
+main .shop .pro2 .plant h5,
+main .shop .pro2 .poster h5,
+main .shop .pro2 .light h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3E6349;
+    text-align: left;
+    left: 320px;
+    top: 316px;
+    margin-left: 18px;
+    margin-top: 5px;
+}
+
+main .shop .pro1 .cushion p,
+main .shop .pro1 .Curtain p,
+main .shop .pro1 .candle p,
+main .shop .pro2 .clock p,
+main .shop .pro2 .plant p,
+main .shop .pro2 .poster p,
+main .shop .pro2 .light p {
+    font-size: 15px;
+    color: #3E6349;
+    text-align: left;
+    left: 320px;
+    top: 316px;
+    margin-left: 18px;
+    margin-top: 5px;
+}
+
+main .shop .pro1 .clock580 {
+    display: none;
+}
+
+/* 상품 영역 나열 부분2 */
+main .shop .pro2 {
+    width: 100%;
+    max-width: 1570px;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    height: 425px;
+    display: flex;
+    margin: 25px auto;
+    gap: 30px;
+
+}
+
+
+main .shop .pro2 .figures {
+    width: 370px;
+    height: 425px;
+    background-color: rgba(62, 99, 73, 25%);
+    position: relative;
+    overflow: hidden;
+}
+
+main .shop .pro2 .figures figure {
+    width: 370px;
+    height: 425px;
+}
+
+
+main .shop .pro2 .figures figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+main .shop .pro2 .figures>h4 {
+    font-size: 32px;
+    position: absolute;
+    font-weight: 600;
+    color: #3E6349;
+    text-align: left;
+    left: 20px;
+    top: 338px;
+
+}
+
+/* 이벤트 영역 */
+main .event {
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    height: 2346px;
+    background-color: #3E6349;
+}
+
+main .event h3 {
+    text-align: center;
+    padding: 60px;
+    font-size: clamp(24px, 2.5vw, 36px);
+    font-weight: 600;
+    color: #FFFDF6;
+}
+
+/* 이벤트 메인 영역 */
+main .event .advertising {
+    width: 1556px;
+    height: 423px;
+    background-image: url(./images/ad1.jpeg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 0 -400px;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+}
+
+main .event .advertising h4 {
+    text-align: right;
+    margin: 0 30px;
+    position: absolute;
+    top: 220px;
+    left: 500px;
+    font-size: clamp(24px, 2.5vw, 48px);
+    font-weight: 600;
+    color: #FFFDF6;
+}
+
+main .event .advertising h2 {
+    text-align: right;
+    margin: 10px 30px;
+    font-size: 100px;
+    font-weight: 600;
+    color: #FFFDF6;
+    position: absolute;
+    top: 270px;
+    left: 435px;
+}
+
+main .event .advertising580 {
+    display: none;
+}
+
+/* 이벤트 하위 이미지 */
+main .event .underimg {
+    margin: 30px auto;
+    width: 1556px;
+    height: 1552px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    gap: 30px;
+
+}
+
+/* 라탄이미지 */
+main .event .underimg .ratan {
+    width: 500px;
+    height: 766px;
+    overflow: hidden;
+    background-color: aqua;
+    position: relative;
+}
+
+main .event .underimg .ratan h5 {
+    position: absolute;
+    font-size: 40px;
+    color: #3E6349;
+    top: 50px;
+    left: 210px;
+}
+
+
+
+/* 여름 인테리어 이미지 */
+main .event .underimg .summer {
+    width: 500px;
+    height: 752px;
+    overflow: hidden;
+    background-color: aqua;
+    position: relative;
+}
+
+main .event .underimg .summer h5 {
+    position: absolute;
+    font-size: 40px;
+    color: #3E6349;
+    top: 50px;
+    left: 370px;
+}
+
+main .event .underimg .summer580 {
+    display: none;
+}
+
+
+/* 마카롱 이미지*/
+main .event .underimg .Macaron {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+main .event .underimg .Macaron580 h5 {
+    display: none;
+}
+
+
+/* 마카롱 이미지*/
+main .event .underimg .Macaron580 {
+    display: none;
+}
+
+/* 말린 꽃병 이미지 */
+main .event .underimg .dryflower {
+    width: 500px;
+    height: 719px;
+    overflow: hidden;
+    background-color: aqua;
+    position: relative;
+}
+
+main .event .underimg .dryflower h5 {
+    position: absolute;
+    font-size: 40px;
+    color: #FFFDF6;
+    top: 650px;
+    left: 200px;
+}
+
+/* 인센스 이미지 */
+main .event .underimg .Insense {
+    width: 500px;
+    height: 467px;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+/* 글래스 이미지 */
+main .event .underimg .glass {
+    width: 500px;
+    height: 766px;
+    overflow: hidden;
+    background-color: aqua;
+    position: relative;
+}
+
+main .event .underimg .glass h5 {
+    position: absolute;
+    font-size: 40px;
+    color: #FFFDF6;
+    top: 690px;
+    left: 240px;
+}
+
+/* 오브제 이미지 */
+main .event .underimg .object {
+    width: 500px;
+    height: 752px;
+    overflow: hidden;
+    background-color: aqua;
+    position: relative;
+}
+
+main .event .underimg .object h5 {
+    position: absolute;
+    font-size: 40px;
+    color: #FFFDF6;
+    top: 50px;
+    left: 240px;
+}
+
+main .event .underimg .Insense580 {
+    display: none;
+}
+
+main .event .underimg .glass580 {
+    display: none;
+}
+
+main .event .underimg .object580 {
+    display: none;
+}
+
+main .event .underimg .ratan img,
+main .event .underimg .summer img,
+main .event .underimg .Macaron img,
+main .event .underimg .dryflower img,
+main .event .underimg .Insense img,
+main .event .underimg .glass img,
+main .event .underimg .object img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+footer {
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    height: 892px;
+    background-color: #3E6349;
+    display: flex;
+}
+
+main .line {
+    width: 100%;
+    max-width: 1766px;
+    margin: auto;
+    height: 2px;
+    margin: auto;
+    background-color: #FFFDF6;
+}
+
+footer .left {
+    width: 960px;
+    height: 892px;
+}
+
+footer .right {
+    width: 960px;
+    height: 892px;
+}
+
+footer .left h4 {
+    margin-left: 132px;
+    font-size: clamp(24px, 2.5vw, 36px);
+    font-weight: 600;
+    color: #FFFDF6;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+footer .left p {
+    margin-left: 132px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFDF6;
+    margin-top: 60px;
+    line-height: 45px;
+}
+footer .left .last {
+    display: block;
+    margin-left: 132px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFDF6;
+    margin-bottom: 60px;
+}
+
+
+footer .right .last580 {
+    display: none;
+}
+
+
+footer .right p {
+    margin-left: 132px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFDF6;
+    margin-top: 160px;
+    margin-bottom: 60px;
+    line-height: 45px;
+}
+
+
+@media (max-width: 580px) {
+    header nav ul {
+        display: none;
+    }
+
+    header .ham {
+        display: block;
+        width: 34px;
+        height: 36px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-content: center;
+        margin: 45px 64px;
+
+    }
+
+    header .ham .h_line {
+        width: 30px;
+        height: 4px;
+        background-color: #3E6349;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+     }
+
+    main .collection {
+        width: 100%;
+        height: 480px;
+        padding: 69px;
+    }
+
+    main .collection .icon {
+        width: 400px;
+        height: 210px;
+        flex-wrap: wrap;
+        gap: 95px;
+    }
+
+    main .about {
+        height: 2327px;
+    }
+    
+
+    main .about .about_inner .r1 {
+        width: 580px;
+        height: 741px;
+        background-image: url(./images/room1.jpeg);
+        overflow: hidden;
+        top: 0;
+        left: 0;
+    }
+
+    main .about .about_inner .r2 {
+        width: 580px;
+        height: 741px;
+        background-image: url(./images/room2.jpeg);
+        overflow: hidden;
+        top: 1179px;
+        left: 0;
+    }
+
+
+    main .about .about_inner .t1 {
+        position: absolute;
+        line-height: 40px;
+        top: 745px;
+        font-size: 24px;
+        left: 25%;
+        transform: translateX(-50%);
+        width: 90%;
+        max-width: 500px;
+        text-align: center;
+    }
+
+    main .about .about_inner .t2 {
+        top: 1790px;
+        left: 0;
+        text-align: center;
+        line-height: 40px;
+        font-size: 24px;
+    }
+
+    main .concept {
+        width: 100%;
+        height: 2060px;
+    }
+
+    main .concept h3 {
+        margin-left: 40px;
+        margin-bottom: 33px;
+    }
+
+    main .concept .concept-img {
+        width: 415px;
+        height: 1905px;
+        flex-direction: column;
+        gap: 27px;
+    }
+
+    main .concept .concept-img .green-interior {
+        width: 415px;
+        height: 617px;
+    }
+
+    main .concept .concept-img .green-interior h4 {
+        left: 120px;
+        top: 20px;
+    }
+
+    main .concept .concept-img .green-interior img {
+        width: 415px;
+        height: 617px;
+        border-radius: 25px;
+    }
+
+    main .concept .concept-img .wood-interior {
+        width: 415px;
+        height: 617px;
+    }
+
+    main .concept .concept-img .wood-interior h4 {
+        left: 120px;
+        top: 20px;
+    }
+
+    main .concept .concept-img .wood-interior img {
+        width: 415px;
+        height: 617px;
+        border-radius: 25px;
+    }
+
+    main .concept .concept-img .white-interior {
+        width: 415px;
+        height: 617px;
+    }
+
+    main .concept .concept-img .white-interior h4 {
+        left: 120px;
+        top: 20px;
+    }
+
+    main .concept .concept-img .white-interior img {
+        width: 415px;
+        height: 617px;
+        border-radius: 25px;
+    }
+
+    main .shop {
+        height: 2270px;
+    }
+
+    main .shop h3 {
+        margin-left: 40px;
+    }
+
+    main .shop .pro1 {
+        width: 580px;
+        height: 871px;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding-left: 20px;
+    }
+
+    main .shop .baer580 {
+        display: block;
+        width: 580px;
+        height: 442px;
+        position: relative;
+        margin-bottom: 20px;
+
+    }
+
+    main .shop .baer580>img {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    main .shop .baer580>h4 {
+        font-size: 32px;
+        position: absolute;
+        font-weight: 600;
+        color: #3E6349;
+        text-align: right;
+        left: 300px;
+        top: 340px;
+
+    }
+
+    main .shop .pro1 .baer {
+        display: none;
+        
+    }
+
+    main .shop .pro1 .clock580 {
+        display: block;
+    }
+
+    main .shop .pro2 .clock {
+        display: none;
+    }
+
+    main .shop .pro1 .cushion h4,
+    main .shop .pro1 .Curtain h4,
+    main .shop .pro1 .candle h4,
+    main .shop .pro2 .clock h4,
+    main .shop .pro2 .plant h4,
+    main .shop .pro2 .poster h4,
+    main .shop .pro2 .light h4 {
+        margin-left: 0px;
+    }
+
+
+    main .shop .pro1 .cushion,
+    main .shop .pro1 .Curtain,
+    main .shop .pro1 .candle,
+    main .shop .pro1 .clock580,
+    main .shop .pro2 .plant,
+    main .shop .pro2 .poster,
+    main .shop .pro2 .light {
+        width: 260px;
+        height: 411px;
+        background-color: rgba(62, 99, 73, 25%);
+    }
+
+
+    main .shop .pro1 .cushion figure,
+    main .shop .pro1 .Curtain figure,
+    main .shop .pro1 .candle figure,
+    main .shop .pro1 .clock580 figure,
+    main .shop .pro2 .plant figure,
+    main .shop .pro2 .poster figure,
+    main .shop .pro2 .light figure {
+        width: 260px;
+        height: 273px;
+    }
+
+    main .shop .pro1 .cushion figure img,
+    main .shop .pro1 .Curtain img,
+    main .shop .pro1 .candle img,
+    main .shop .pro1 .clock580 figure img,
+    main .shop .pro2 .plant figure img,
+    main .shop .pro2 .poster figure img,
+    main .shop .pro2 .light figure img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    main .shop .pro1 .cushion h4,
+    main .shop .pro1 .Curtain h4,
+    main .shop .pro1 .candle h4,
+    main .shop .pro1 .clock580 h4,
+    main .shop .pro2 .plant h4,
+    main .shop .pro2 .poster h4,
+    main .shop .pro2 .light h4 {
+        font-size: 20px;
+        font-weight: 900;
+        color: #3E6349;
+        text-align: left;
+        left: 320px;
+        top: 316px;
+        margin-left: 18px;
+        margin-top: 18px;
+    }
+
+    main .shop .pro1 .cushion h5,
+    main .shop .pro1 .Curtain h5,
+    main .shop .pro1 .candle h5,
+    main .shop .pro1 .clock580 h5,
+    main .shop .pro2 .plant h5,
+    main .shop .pro2 .poster h5,
+    main .shop .pro2 .light h5 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #3E6349;
+        text-align: left;
+        left: 320px;
+        top: 316px;
+        margin-left: 18px;
+        margin-top: 5px;
+    }
+
+    main .shop .pro1 .cushion p,
+    main .shop .pro1 .Curtain p,
+    main .shop .pro1 .candle p,
+    main .shop .pro1 .clock580 p,
+    main .shop .pro2 .plant p,
+    main .shop .pro2 .poster p,
+    main .shop .pro2 .light p {
+        font-size: 14px;
+        color: #3E6349;
+        text-align: left;
+        left: 320px;
+        top: 316px;
+        margin-left: 18px;
+        margin-top: 5px;
+    }
+
+
+
+
+
+    main .shop .pro2 {
+        width: 580px;
+        height: 879px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding-left: 20px;
+
+    }
+
+
+    main .shop .pro2 .figures {
+        width: 260px;
+        height: 411px;
+    }
+
+    main .shop .pro2 .figures figure {
+        width: 260px;
+        height: 411px;
+    }
+
+
+    main .shop .pro2 .figures>h4 {
+        font-size: 24px;
+        top: 328px;
+
+    }
+
+    main .event {
+        margin-top: 100px;
+        width: 580px;
+        height: 3072px;
+    }
+
+
+    main .event .advertising {
+        display: none;
+    }
+
+    main .event .advertising580 {
+        display: block;
+        width: 535px;
+        height: 672px;
+        background-image: url(./images/ad1.jpeg);
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: -200px 0px;
+        background-size: cover;
+        margin: auto;
+        position: relative;
+    }
+
+    main .event .advertising580 h4 {
+        width: 351px;
+        text-align: left;
+        margin: 0 30px;
+        position: absolute;
+        top: 580px;
+        /* left: 5px; */
+        font-size: 24px;
+        font-weight: 600;
+        color: #FFFDF6;
+    }
+
+    main .event .advertising580 h2 {
+        text-align: left;
+        margin: 10px 0;
+        font-size: 64px;
+        font-weight: 600;
+        color: #FFFDF6;
+        position: absolute;
+        top: 450px;
+        left: 20px;
+        line-height: 60px;
+    }
+
+    main .event .underimg {
+        width: 535px;
+        height: 2160px;
+        flex-direction: row;
+        gap: 15px;}
+
+    main .event .underimg .ratan {
+        width: 397px;
+        height: 453px;
+    }
+
+    main .event .underimg .ratan h5 {
+        font-size: 32px;
+        top: 25px;
+        left: 170px;
+    }
+
+    main .event .underimg .summer {
+        display: none;
+    }
+
+
+    main .event .underimg .Macaron {
+        display: none;
+    }
+
+
+    main .event .underimg .summer580 {
+        display: block;
+        width: 123px;
+        height: 453px;
+        overflow: hidden;
+        background-color: aqua;
+    }
+
+    main .event .underimg .Macaron580 h5 {
+        display: block;
+        position: absolute;
+        font-size: 32px;
+        color: #FFFDF6;
+        top: 25px;
+        left: 20px;
+    }
+
+
+    /* 마카롱 이미지*/
+    main .event .underimg .Macaron580 {
+        display: block;
+        position: relative;
+        width: 535px;
+        height: 211px;
+        overflow: hidden;
+        background-color: aqua;
+    }
+
+    main .event .underimg .dryflower {
+        width: 535px;
+        height: 458px;
+    }
+
+    main .event .underimg .dryflower h5 {
+        font-size: 32px;
+        top: 400px;
+        left: 300px;
+    }
+
+    main .event .underimg .Insense580 {
+        display: block;
+        width: 536px;
+        height: 458px;
+        overflow: hidden;
+        background-color: aqua;
+        position: relative;
+    }
+
+
+    /* 글래스 이미지 */
+    main .event .underimg .glass580 {
+        display: block;
+        width: 396px;
+        height: 453px;
+        overflow: hidden;
+        background-color: aqua;
+        position: relative;
+    }
+
+    main .event .underimg .glass580 h5 {
+        position: absolute;
+        font-size: 32px;
+        color: #FFFDF6;
+        top: 400px;
+        left: 200px;
+    }
+
+    /* 오브제 이미지 */
+    main .event .underimg .object580 {
+        display: block;
+        width: 124px;
+        height: 453px;
+        overflow: hidden;
+        background-color: aqua;
+        position: relative;
+    }
+
+    main .event .underimg .object580 img {
+        position: absolute;
+        object-position: right;
+    }
+
+    main .event .underimg .Insense580 h5 {
+        position: absolute;
+        font-size: 32px;
+        color: #FFFDF6;
+        top: 400px;
+        left: 320px;
+    }
+
+    main .event .underimg .Insense {
+        display: none;
+    }
+
+    /* 글래스 이미지 */
+    main .event .underimg .glass {
+        display: none;
+    }
+
+
+    /* 오브제 이미지 */
+    main .event .underimg .object {
+        display: none;
+    }
+
+    main .event .underimg .ratan580 img,
+    main .event .underimg .summer580 img,
+    main .event .underimg .Macaron580 img,
+    main .event .underimg .dryflower580 img,
+    main .event .underimg .Insense580 img,
+    main .event .underimg .glass580 img,
+    main .event .underimg .object580 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+
+    footer {
+        width: 580px;
+        height: 679px;
+        flex-direction: column;
+    }
+
+    main .line {
+        width: 523px;
+    }
+
+    footer .left h4 {
+        margin-left: 40px;
+        font-weight: 600;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+
+    footer .left p {
+        margin-left: 40px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    footer .right p {
+        margin-left: 40px;
+        font-size: 16px;
+        margin-top: 0;
+        line-height: 25px;
+    }
+
+    footer .right{
+        width: 100%;
+    }
+
+    footer .right .last580 {
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        color: #FFFDF6;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    footer .left .last {
+        display: none;
+    }
+    
+}
